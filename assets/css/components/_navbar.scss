@@ -1,0 +1,42 @@
+.navbar {
+  padding: 0;
+  height: 60px;
+}
+
+.navbar-route-link {
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s all;
+  max-width: 50px;
+
+  & > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100px;
+  }
+}
+
+.navbar-route-link:hover {
+  background: rgba(93, 23, 23, 0.5);
+}
+
+.logotype {
+  height: 33px;
+  padding-left: 10px;
+}
+
+.toggle {
+  display: none;
+  padding: 0 0 0 10px;
+  height: 100%;
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 767px) {
+  .toggle {
+    display: block;
+  }
+}

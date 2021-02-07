@@ -1,0 +1,24 @@
+.product-cart-item {
+  margin: 5px 0 5px 0;
+
+  & .product-img {
+    max-width: 150px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  & .product-name-cost {
+    width: 100%
+  }
+
+  & .product-control {
+    width: 100px;
+
+    button {
+      height: 30px;
+      margin: 0px 2px;
+    }
+  }
+}

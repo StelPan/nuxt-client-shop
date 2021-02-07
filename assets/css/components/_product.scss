@@ -1,0 +1,34 @@
+.product {
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  height: 100%;
+  background: white;
+
+  & .product-discount {
+    top: 0;
+    right: 0;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white !important;
+  }
+
+  & .product-header {
+    transition: all 0.2s;
+  }
+
+  & .product-header:hover {
+    color: red;
+  }
+
+  & .product-pay {
+    margin-top: 20px;
+  }
+
+
+  & .ruble-icon {
+    margin-left: -5px;
+  }
+}

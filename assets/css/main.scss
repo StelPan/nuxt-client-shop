@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* GLOBAL_SETTING STYLES */
+@import "./settings/_global.scss";
+
+/* DESIGN_TOKENS STYLES */
+@import "./design-tokens/_classes.scss";
+
+/* COMPONENTS STYLES */
+@import "./components/_navbar.scss";
+@import "./components/_product.scss";
+@import "./components/_product-cart-item.scss";
+@import "./components/_sidebar.scss";
+
+/* PAGES STYLES */
+@import "./pages/_cart.scss";
+@import "./pages/_profile.scss";

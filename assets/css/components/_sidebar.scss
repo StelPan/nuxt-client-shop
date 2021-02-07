@@ -1,0 +1,14 @@
+.sidebar-link {
+  text-decoration: none;
+  color: #626262;
+  transition: all 0.3s;
+}
+
+.sidebar-link:hover {
+  background-color: rgba(214, 214, 214, 0.4);
+  color: rgb(210, 0, 0)
+}
+
+strong {
+  font-size: 18px;
+}
